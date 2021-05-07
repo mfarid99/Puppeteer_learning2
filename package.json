@@ -1,0 +1,23 @@
+{
+  "name": "masterofpuppeteer",
+  "version": "1.0.0",
+  "description": "Automated Software Testing With Puppies",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "MF",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "prettier": "^2.2.1",
+    "puppeteer": "^9.1.1"
+  }
+}
