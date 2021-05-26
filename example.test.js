@@ -15,16 +15,24 @@ const puppeteer = require('puppeteer')
     
 // }, 120000)
 
-describe('My Second Puppeteer Test', async () => {
-    it('Should launch another browser', async () => {
-        const browser = await puppeteer.launch({headless: false})
-        const page = await browser.newPage()
+// describe('My Second Puppeteer Test', async () => {
+//     it('Should launch another browser', async () => {
+//         const browser = await puppeteer.launch({headless: false})
+//         const page = await browser.newPage()
 
-        await page.goto('https://www.autodesk.com/products/maya/overview?term=1-YEAR')
-        await browser.close()
+//         await page.goto('https://www.autodesk.com/products/maya/overview?term=1-YEAR')
+//         await browser.close()
 
-    })
+//     })
    
 
 
-}, 120000)
+// })
+
+describe('My Third Test', async()=> {
+    it('Should launch Youtube', async()=> {
+        const browser = await puppeteer.launch({headless: false})
+        const page = await browser.newPage()
+        await page.goto('https:www.youtube.com')
+    })
+})
